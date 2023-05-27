@@ -58,15 +58,15 @@ function App() {
             {data.main ? (
               <p>{(data.main.feels_like - 273).toString().split(".")[0]}°C</p>
             ) : null}
-            <h2>Feels</h2>
+            <h2>Feel</h2>
           </div>
           <div className="humidity">
             {data.main ? <p>{data.main.humidity}%</p> : null}
-            <h2>Humidity</h2>
+            <h2>Humid</h2>
           </div>
           <div className="wind">
             {data.wind ? <p>{data.wind.speed} MPH</p> : null}
-            <h2>Wind Speed</h2>
+            <h2>Wind</h2>
           </div>
         </div>
       </div>
